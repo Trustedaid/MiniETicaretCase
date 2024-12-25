@@ -4,6 +4,7 @@ namespace MiniETicaretAPI.Domain.Entities;
 
 public class Cart: BaseEntity
 {
-    public string UserId { get; set; }
+    public Guid UserId { get; set; }
+    public User User { get; set; }
     public ICollection<CartItem> CartItems { get; set; }
  }
