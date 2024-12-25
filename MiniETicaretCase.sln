@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BAEF8D07-52D6-4FAF-A749-3244E21E28C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaretAPI.Domain", "Core\MiniETicaretAPI.Domain\MiniETicaretAPI.Domain.csproj", "{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaretAPI.Application", "Core\MiniETicaretAPI.Application\MiniETicaretAPI.Application.csproj", "{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C23DF4A7-04BE-44A0-968D-CD4E3A354EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaretAPI.Infrastructure", "Infrastructure\MiniETicaretAPI.Infrastructure\MiniETicaretAPI.Infrastructure.csproj", "{E0215533-A478-41C3-BAD2-3820840922E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaretAPI.Persistence", "Infrastructure\MiniETicaretAPI.Persistence\MiniETicaretAPI.Persistence.csproj", "{E8EC1D96-F825-4C95-95D2-821F397A58E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D00C65D4-58B2-4B57-89B6-5132D24A5018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniETicaretAPI.API", "Presentation\MiniETicaretAPI.API\MiniETicaretAPI.API.csproj", "{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D} = {BAEF8D07-52D6-4FAF-A749-3244E21E28C5}
+		{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1} = {BAEF8D07-52D6-4FAF-A749-3244E21E28C5}
+		{E0215533-A478-41C3-BAD2-3820840922E9} = {C23DF4A7-04BE-44A0-968D-CD4E3A354EBF}
+		{E8EC1D96-F825-4C95-95D2-821F397A58E4} = {C23DF4A7-04BE-44A0-968D-CD4E3A354EBF}
+		{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD} = {D00C65D4-58B2-4B57-89B6-5132D24A5018}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15EC828-A419-4CF4-9DF2-B45AE9B9E73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C3B9A2-AE2B-4A8B-B17B-DB97CF10CFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0215533-A478-41C3-BAD2-3820840922E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0215533-A478-41C3-BAD2-3820840922E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0215533-A478-41C3-BAD2-3820840922E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0215533-A478-41C3-BAD2-3820840922E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8EC1D96-F825-4C95-95D2-821F397A58E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EC1D96-F825-4C95-95D2-821F397A58E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EC1D96-F825-4C95-95D2-821F397A58E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EC1D96-F825-4C95-95D2-821F397A58E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED02CB4B-CC43-46C6-878A-9645ADC7EBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
